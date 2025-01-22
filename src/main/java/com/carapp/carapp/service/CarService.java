@@ -31,7 +31,7 @@ public class CarService {
     public ResponseEntity<String> modifyById(String id, Car car) {
         boolean existingCar = carRepository.existsById(id);
         if (existingCar) {
-            car.setId(id);
+            
             carRepository.save(car);
             return ResponseEntity.ok("Car with id: " + id + " updated successfully");
         }
