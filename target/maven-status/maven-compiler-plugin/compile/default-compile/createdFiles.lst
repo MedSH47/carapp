@@ -1,11 +1,12 @@
 com\carapp\carapp\controller\UserController.class
 com\carapp\carapp\model\Car.class
-com\carapp\carapp\exception\userNotFoundException.class
-com\carapp\carapp\repository\UserRepository.class
 com\carapp\carapp\service\CarService.class
 com\carapp\carapp\service\UserService.class
-com\carapp\carapp\controller\CarController.class
 com\carapp\carapp\model\Car$RPM.class
 com\carapp\carapp\repository\CarRepository.class
-com\carapp\carapp\CarappApplication.class
 com\carapp\carapp\model\User.class
+com\carapp\carapp\exception\userNotFoundException.class
+com\carapp\carapp\repository\UserRepository.class
+com\carapp\carapp\configuration\WebMvcConfig.class
+com\carapp\carapp\controller\CarController.class
+com\carapp\carapp\CarappApplication.class
